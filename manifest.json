@@ -2,7 +2,7 @@
     "name": "弹了个幕",
     "version": "1.5",
     "description": "让优酷弹起来",
-    "manifest_version": 2,
+    "manifest_version": 2.0,
     "permissions": [
         "tabs",
         "http://*/*",
@@ -11,7 +11,7 @@
         "storage"
     ],
     "content_scripts": [
-        {"js": ["scripts/jquery.js", "scripts/plugin.js", "scripts/video.js"],
+        {"js": ["scripts/jquery.js", "scripts/chromex.js", "scripts/plugin.js", "scripts/video.js"],
          "css": ["styles/style.css"],
          "matches": ["http://v.youku.com/*"],
          "run_at": "document_end",

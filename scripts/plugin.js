@@ -92,6 +92,7 @@
     var popku_player = {};
 
     popku_player.version = 2.0;
+    popku_player.request_server_test = "http://127.0.0.1:5000"
     popku_player.request_server = "http://popku.szulabs.org"
     popku_player.host = popku_player.request_server
    
